@@ -1,10 +1,8 @@
-name: Build Main and Internal PR
+name: Build Main
 on:
   push:
     branches:
       - main
-  pull_request:
-    types: [opened, synchronize, reopened]
 jobs:
   build:
     name: Scan
