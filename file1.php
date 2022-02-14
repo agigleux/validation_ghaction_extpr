@@ -1,4 +1,5 @@
 <?php
 $data = $_GET["data"];
-$object = unserialize($data);
+$object1 = unserialize($data);
+$object2 = unserialize($data);
 ?>
